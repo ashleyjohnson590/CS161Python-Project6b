@@ -1,0 +1,9 @@
+#Author: Ashley Johnson
+#Date: 11/3/2020
+#Description: Program takes a list of names as parameter and returns a
+# list of names that starts with K and adds surname Kardashian.
+firstnames=[]
+def add_surname(firstnames):
+   """ returns a list of first names that start with K and adds surname Kardashian to names."""
+   fullnames = [x + " " + "Kardashian" for x in firstnames if x[0] == "K"]
+   return fullnames
